@@ -1,0 +1,27 @@
+/*Bouton Tweet*/
+.tweet-button {
+    margin-top: -42px;
+    margin-left: 220px;
+    position: absolute;
+    background-color: var(--dark-grey);
+    color: white;
+    width: 120px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tweet-button-icon {
+    margin-right: 10px;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.tweet-link {
+    margin-left: 10px;
+    color: white;
+    font-family: var(--text);
+    font-size: var(--button);
+}

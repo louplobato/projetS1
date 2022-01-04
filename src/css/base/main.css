@@ -14,9 +14,15 @@ h1 {
 
 h2 {
     font-family: var(--text);
+    font-weight: normal;
 }
 
 .presentation {
     margin-top: 83px;
     margin-bottom: 50px;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
 }

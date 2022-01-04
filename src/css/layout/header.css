@@ -8,6 +8,7 @@
     max-height: 53px;
     justify-content: space-between;
     align-items: center;
+    z-index: 4;
 }
 
 .header-menu {

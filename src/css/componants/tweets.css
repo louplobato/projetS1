@@ -1,5 +1,26 @@
 
-
-.tweet.figure {
+.tweet-article {
     margin-left: 17px;
+}
+
+.tweet-article-2 {
+    margin-left: 17px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tweet-title {
+    position: absolute;
+    font-size: var(--basic);
+    margin-top: -210px;
+    margin-left: 150px;
+    font-weight: bold;
+}
+
+.tweet-description {
+    font-size: var(--basic);
+    width: 195px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 150px;
 }
