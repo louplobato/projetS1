@@ -1,0 +1,20 @@
+:root {
+
+    /*Font Family*/
+    --logo: 'Playfair Display';
+    --text: 'Open Sans';
+
+    /*Font size*/
+
+    --heading1: 25px;
+    --basic: 15px;
+    --little: 14px;
+    --button: 13px;
+    --figcaption: 12px;
+
+    /*Color*/
+
+    --fond: rgba(232,232,232,100);
+    --dark-grey: rgba(42,41,41,100);
+    --tonique: rgba(166,8,8,100);
+}

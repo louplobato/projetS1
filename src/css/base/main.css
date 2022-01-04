@@ -1,0 +1,22 @@
+body {
+    background-color: var(--fond);
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: var(--text);
+}
+
+h1 {
+    font-family: var(--text);
+}
+
+h2 {
+    font-family: var(--text);
+}
+
+.presentation {
+    margin-top: 83px;
+    margin-bottom: 50px;
+}

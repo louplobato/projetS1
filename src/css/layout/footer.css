@@ -1,0 +1,18 @@
+.footer {
+    background-color: var(--dark-grey);
+    display: flex;
+    flex-direction: column;
+    max-height: 159px;
+    width: 100%;
+    bottom: 100%;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: var(--text);
+    font-size: var(--basic);
+}
+
+.footer-name {
+    margin: 0;  
+}
+
