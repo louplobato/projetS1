@@ -1,65 +1,54 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{ menuIsOpen: false }" :class="menuIsOpen">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Madness of Manga</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
 </head>
 <body>
     <header class="header">
-        <a href="/index.html" class="header-logo">
-            <img src="public/img/pomme_blanche.svg" alt="logo du site">
-        </a>
+            <a href="/index.html" >
+                <img src="public/img/pomme_blanche.png" alt="logo du site" class="header-logo">
+            </a> 
 
         <p class="header-title">
             Madness of Manga
         </p>
 
-        <button class="header-menu">
+        <button class="header-menu menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav"
+                @pointerdown="menuIsOpen = !menuIsOpen"
+                :class="menuIsOpen && 'menu-btn--open'">
             <img src="public/img/Menu.svg" alt="icone de menu hamburger">
         </button>
 
-        <nav class="header-nav">
-            <ul class="header-list">
-                <li class="header-item">
-                    <a href="index.html" class="header-link">
+        <nav class="header-nav menu" id="mainNav" :class="menuIsOpen && 'menu--open'">
+                    <a href="/index.html" class="header-link">
                         Accueil
                     </a>
-                </li>
-             
-                <li class="header-item">
+                <hr>
                     <a href="article-1.html" class="header-link">
                         Death Note, un chef d'oeuvre
                     </a>
-                </li>
-             
-                <li class="header-item">
+                <hr>
                     <a href="article-2.html" class="header-link">
                         Death Note, le film Netflix
                     </a>
-                </li>
-                
-                <li class="header-item">
+                <hr>
                     <a href="article-3.html" class="header-link">
                         La justice française
                     </a>
-                </li>
-         
-                <li class="header-item">
+                <hr>
                     <a href="autres-projets.html" class="header-link">
                         Autres projets
                     </a>
-                </li>
-          
-                <li class="header-item">
+                <hr>
                     <a href="a-propos.html" class="header-link">
                         A Propos
                     </a>
-                </li>
-
-                <li class="header-item">
+                <hr>
                     <a href="contact.html" class="header-link">
                         Contact
                     </a>
