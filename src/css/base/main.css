@@ -145,3 +145,21 @@ figcaption {
     font-size: var(--heading1);
     font-weight: bold;
 }
+
+.error-link {
+    color: black;
+    font-family: var(--text);
+    font-size: var(--basic);
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+
+}
+
+.error-bar {
+    border: 1px solid black;
+    width: 320px;
+    margin-bottom: 30px;
+}

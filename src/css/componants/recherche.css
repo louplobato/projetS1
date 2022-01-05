@@ -1,0 +1,19 @@
+.error-button {
+    background-color: var(--tonique);
+    color: white;
+    appearance: none;
+    border: none;
+    width: 200px;
+    height: 50px;
+    margin-left: 143px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: var(--text);
+}
+
+.error-name {
+    font-family: var(--text);
+    font-size: var(--basic);
+    margin-left: 15px;
+}
+

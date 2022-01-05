@@ -58,6 +58,7 @@
     </header>
 
     <main>
+
         <p class="error-text">
             Cette page n'est pas disponible...
         </p>
@@ -65,7 +66,57 @@
         <p class="error-error">
             Erreur 404
         </p>
+
+        <div class="error-recherche">
+            <form action="https://google.com/" method="GET" 
+    x-data="{ q:'', }" 
+    x-on:submit="q = q + ' site: madness.louplobato.fr'">
+    <label for="q" class="error-name">Texte à chercher :</label>
+    <input type="text" id="q" name="q" x-model="q" >
+    <button type="submit" class="error-button">Rechercher</button>
+</form>
+        </div>
+        
+        <hr class="error-bar">
+
+        <a href="/index.html" class="error-link">
+            Accueil
+        </a>
+    
+        <a href="article-1.html" class="error-link">
+            Death Note, un chef d'oeuvre
+        </a>
+    
+        <a href="article-2.html" class="error-link">
+            Death Note, le film Netflix
+        </a>
+    
+        <a href="article-3.html" class="error-link">
+            La justice française
+        </a>
+    
+        <a href="autres-projets.html" class="error-link">
+            Autres projets
+        </a>
+    
+        <a href="a-propos.html" class="error-link">
+            A Propos
+        </a>
+    
+        <a href="contact.html" class="error-link">
+            Contact
+        </a>
     </main>
 
+    <footer class="footer">
+        <img src="public/img/mmi.svg" alt="logo du département MMI montbéliard" class="footer-image">
+        <p class="footer-name">
+            PierrePolJ
+        </p>
+
+        <p class="footer-presentation">
+            PierrePolJ - Projet réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard
+        </p>
+    </footer>
 </body>
 </html>
