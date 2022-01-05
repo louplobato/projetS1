@@ -11,6 +11,8 @@ figure {
 video {
     max-width: 100%;
     height: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .article-image-title {
@@ -23,3 +25,19 @@ video {
     margin-bottom: 15px;
 }
 
+.citation {
+    color: var(--tonique);
+    font-weight: bold;
+    text-align: center;
+    width: 333px;
+    padding: 15px;
+    border-left: 4px solid var(--tonique);
+}
+
+.article-recomand-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}

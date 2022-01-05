@@ -63,7 +63,8 @@ ul {
     background-color: var(--tonique);
     display: flex;
     align-items: center;
-    max-width: 323px;
+    padding-right: 20px;
+    max-width: fit-content;
     color: white;
 }
 
@@ -72,4 +73,29 @@ ul {
     font-size: var(--text);
     font-weight: bold;
     margin-left: 15px;
+}
+
+.article-point {
+    padding-left: 15px;
+    padding-right: 10px;
+    border-bottom: 2px solid var(--tonique);
+    max-width: fit-content;
+}
+
+figcaption {
+    font-family: var(--text);
+    font-size: var(--figcaption);
+}
+
+.article-recomand    {
+    text-align: center;
+}
+
+.article-trait {
+    background-color: var(--tonique);
+    text-align: center;
+    width: 348px;
+    border: 1px solid var(--tonique);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
