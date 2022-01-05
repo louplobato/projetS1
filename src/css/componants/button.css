@@ -113,3 +113,19 @@
     width: 24px;
     height: 24px;
 }
+
+/*Bouton Contact*/
+
+.contact-button {
+    width: 200px;
+    height: 70px;
+    background-color: var(--tonique);
+    appearance: none;
+    border: none;
+    color: white;
+    font-family: var(--text);
+    font-size: var(--heading1);
+    margin-left: 150px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}

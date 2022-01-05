@@ -58,43 +58,65 @@
     </header>
 
     <main>
+        <p class="contact-title">
+            Formulaire
+        </p>
+
+        <p class="contact-presentation">
+            Pour me contacter
+        </p>
+
+        <hr class="contact-trait">
         <section class="contact">
             <div class="contactez-nous">
     
                 <form action="/page-traitement-donnees" method="post">
-                <p>
-                    sujet
-                </p>
-                <div>
-                <label for="sujet" class="contact-champ"></label>
-                <input type="text" id="sujet" name="sujet" placeholder="" required>
-                </div>
-                <p>
-                    Nom
-                </p>
-                <div>
-                <label for="nom" class="contact-champ"></label>
-                <input type="text" id="nom" name="nom" placeholder="" required>
-                </div>
-                <p>
-                    Mail
-                </p>
-                <div>
-                    <label for="mail" class="contact-champ"></label>
-                    <input type="text" id="mail" name="mail" placeholder="" required>
-                </div>
-                <p>
-                    Votre demande
-                </p>
-                <div>
-                    <label for="message" class="contact-message"></label>
-                    <textarea id="message" name="message" placeholder="" required></textarea>
+                    <div class="contact-div">
+                        <p class="contact-name">
+                            Sujet
+                        </p>
+                        <div>
+                        <label for="sujet" class="contact-champ"></label>
+                        <input type="text" id="sujet" name="sujet" placeholder="" required>
+                        </div>
                     </div>
-                    <div>
-                    <button type="submit">Envoyer</button>
+                    
+                    <div class="contact-div">
+                        <p class="contact-name">
+                            Nom
+                        </p>
+                        <div>
+                        <label for="nom" class="contact-champ"></label>
+                        <input type="text" id="nom" name="nom" placeholder="" required>
+                        </div>
                     </div>
-                    </form>
-                </div>
+                    
+                    <div class="contact-div">
+                        <p class="contact-name">
+                            Mail
+                        </p>
+                        <div >
+                            <label for="mail" class="contact-champ"></label>
+                            <input type="text" id="mail" name="mail" placeholder="" required>
+                        </div>
+                    </div>
+                
+                    <div class="contact-div">
+                        <p class="contact-name">
+                            Votre demande
+                        </p>
+                        <div>
+                            <label for="message" class="contact-message"></label>
+                            <textarea id="message" name="message" placeholder="" required class="contact-text"></textarea>
+                            </div>
+                    </div>
+                            <div>
+                            <button type="submit" class="contact-button">Envoyer</button>
+                            </div>
+                            </form>
+                        </div>
+                    
+                
         </section>
     </main>
 

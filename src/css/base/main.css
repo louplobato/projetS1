@@ -99,3 +99,38 @@ figcaption {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+.projet-presentation {
+    margin-top: 83px;
+    margin-bottom: 30px;
+}
+
+.projet-item {
+    font-family: var(--text);
+    padding-bottom: 15px ;
+}
+
+.about-presentation {
+    margin-top: 83px;
+}
+
+.about-end {
+    margin-bottom: 345px;
+}
+
+.contact-title {
+    font-family: var(--text);
+    font-size: var(--heading1);
+    margin-top: 83px;
+    margin-left: 20px;
+}
+
+.contact-presentation {
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.contact-trait {
+    border: 1px solid black;
+    width: 350px;
+}
