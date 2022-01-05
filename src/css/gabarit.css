@@ -1,12 +1,11 @@
 .carrousel {
-    grid-column: 2;
-    grid-row: 2;
     width: 130px;
     padding: 0;
     position: relative;
     overflow: hidden;
     margin-left: 120px;
     margin-top: 40px;
+    z-index: 0;
 }
 
 .images {

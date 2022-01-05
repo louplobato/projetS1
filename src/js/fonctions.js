@@ -27,3 +27,15 @@ function carrousel() {
                      {value: 130, duration: 0, delay: delta}]
     });
 }
+
+function monterLegende() {
+    document.querySelector('.texte13').style.display='block';
+    return anime({
+        targets:'.texte13',
+        translateX:{value: '0em', delay: 500},
+        translateY: '-5em',
+        autoplay: false,
+        duration: 300,
+        easing:'linear',
+    }).play;
+}

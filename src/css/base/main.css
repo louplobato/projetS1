@@ -134,3 +134,14 @@ figcaption {
     border: 1px solid black;
     width: 350px;
 }
+
+.error-text {
+    text-align: center;
+    margin-top: 83px;
+}
+
+.error-error {
+    text-align: center;
+    font-size: var(--heading1);
+    font-weight: bold;
+}
