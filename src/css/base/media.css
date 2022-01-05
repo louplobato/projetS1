@@ -7,3 +7,19 @@ img {
 figure {
     margin: 0;
 }
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+.article-image-title {
+    margin-top: 53px;
+}
+
+.article-figure{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+

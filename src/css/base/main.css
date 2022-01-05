@@ -34,3 +34,42 @@ button {
 ul {
     list-style-type: none;
 }
+
+.article-title-cadre{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    margin-top: -104px;
+}
+
+.article-title {
+    margin-left: 30px;
+    font-size: var(--heading1);
+}
+
+.article-text {
+    margin-left: 15px;
+    max-width: 355px;
+}
+
+.article-intro {
+    font-style: italic;
+}
+
+.article-heading-cadre {
+    background-color: var(--tonique);
+    display: flex;
+    align-items: center;
+    max-width: 323px;
+    color: white;
+}
+
+.article-heading {
+    
+    font-size: var(--text);
+    font-weight: bold;
+    margin-left: 15px;
+}
