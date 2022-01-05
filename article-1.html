@@ -7,6 +7,8 @@
     <title>Madness of Manga</title>
     <link rel="stylesheet" href="src/css/style.css">
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="src/js/fonctions.js"></script>
 </head>
 <body>
     <header class="header">
@@ -167,6 +169,26 @@
             <img src="public/img/image-article-1-3.webp" alt="couverture du manga ">
         </div>
         
+        <p class="article-recomand">
+            D’autres oeuvres déssineés par Takeshi Obata : 
+        </p>
+
+        <div class="carrousel">
+            <div class="images">
+                <img id="img1" class="image imgalt" src="public/img/image-carousel-1.webp" alt="">
+                <img id="img2" class="image imgalt" src="public/img/image-carousel-2.webp" alt="">
+                <img id="img3" class="image imgalt" src="public/img/image-carousel-3.webp" alt="">
+                <img id="img4" class="image imgalt" src="public/img/image-carousel-4.webp" alt="">
+                <img id="img5" class="image imgalt" src="public/img/image-carousel-5.webp" alt="">
+                <img id="img6" class="image" src="public/img/image-carousel-6.webp" alt="">
+            </div>
+        </div>
+
+        <script>
+
+            carrousel()
+
+        </script>
     </main>
 
     <footer class="footer">
